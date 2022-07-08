@@ -256,7 +256,7 @@ button:hover{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-.footer{
+/* .footer{
     height: 50vh;
     background-color: #131321;
     align-items: center;
@@ -271,7 +271,103 @@ button:hover{
 .footer-1 p{
     color: rgb(203, 201, 201);
     padding-top: 10px;
+} */
+
+/* <!-- ---------footer------------ --> */
+
+footer{
+    background-color: rgb(16, 17, 27);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
 }
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footer-content h1{
+    font-size: 25px;
+    padding-bottom: 15px;
+
+
+}
+.footer-bottom{
+    text-align: center;
+    background-color: black;
+    font-size: 14px;
+    padding: 10px 0;
+    font-weight: 300;
+}
+.footer-bottom span{
+    color: rgb(255,168,46);
+    font-weight: 600;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    margin: 50px;
+    justify-content: center; 
+    align-items: center;
+
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+    
+
+.socials a i{
+    font-size: 18px;
+    transition: color .4s ease;
+    background-color: #9E9E9E;
+    padding: 10px;
+    border-radius: 60px;
+}
+.socials li a i:hover{
+    transform: translateY(-10px);
+    color: rgb(255,168,46);
+    transition: .4s ease;
+}
+
+.quick-links{
+    list-style: none;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.quick-links li{
+    direction: none;
+    margin: 0 10px;
+}
+.quick-links li a{
+    text-decoration: none;
+    color: #fff;
+}
+.quick-links li a:hover{
+    color: rgb(255,168,46);
+    transition: .4s ease;
+}
+
+
+
+
+
+
+
+
 
 
 
